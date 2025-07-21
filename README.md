@@ -2,6 +2,7 @@
 
 ## Creating Database
 
+```sql
 Create database Practice_file;
 use Practice_file;
 Create table practice (
@@ -13,6 +14,7 @@ location	varchar(20),
 salary	int,
 hire_date	Date,
 performance_score int);
+```
 
 select * from practice;
 
